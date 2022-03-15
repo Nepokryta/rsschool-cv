@@ -45,6 +45,6 @@ function removeExclamationMarks(s) {
 
 - University: Central Ukrainian National Technical University
 
-- Department: International economic relations
+    - Department: International economic relations
 
 - Udemy
