@@ -48,3 +48,9 @@ function removeExclamationMarks(s) {
     - Department: International economic relations
 
 - Udemy
+
+## Language 
+
+* Ukrainian - fluency
+* Russian - fluency
+* English - A2
