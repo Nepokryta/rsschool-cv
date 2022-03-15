@@ -25,6 +25,7 @@
 
 ## Code Example
 
+```
 function removeExclamationMarks(s) {
      let char = '!'
      let newStr = '';
@@ -36,6 +37,7 @@ function removeExclamationMarks(s) {
      return newStr;
  }
  console.log(removeExclamationMarks('hello!!'));
+ ```
 
 ## Education
 
