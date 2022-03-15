@@ -1,3 +1,7 @@
 # rsschool-cv
 
 **Link to CV** https://Nepokryta.github.io/rsschool-cv/cv
+
+# rsschool-cv-html
+
+**https://Nepokryta.github.io/rsschool-cv/
