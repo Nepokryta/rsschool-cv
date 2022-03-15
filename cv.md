@@ -2,6 +2,8 @@
 
 ## Junior Frontend Developer
 
+![me](img/me.jpg "Me")
+
 ## My Contact info
 
 - Phone: +35796303434
