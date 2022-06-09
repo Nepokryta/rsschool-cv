@@ -2,3 +2,64 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.main_page {
+    background-color: whitesmoke;
+}
+
+.main_page .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0;
+    cursor: pointer;
+}
+
+.main_page .header .header_menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+.main_page .header .header_menu .header_item {
+    padding: 0 0 0 40px;
+}
+.main_page .main {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 20px 0 40px 0;
+}
+.main_page .main .main_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+
+}
+.main_page .main .main_wrapper .main_title {
+    margin: 0;
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+
+
+}
+.contact .contact_info {
+    list-style-type: none;
+    display: flex;
+}
+
+.contact .contact_title {
+    font-weight: 600;
+}
+.contact .contact_description {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
