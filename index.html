@@ -13,29 +13,29 @@
             <header class="header">
                 <ul class="header_menu">
                     <li class="header_item">
-                        <div class="header_link">About Me</div>
+                        <a href="#main" class="header_link">About Me</s>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Contact</div>
+                        <a href="#main" class="header_link">Contact</a>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Skills</div>
+                        <a href="#second_main" class="header_link">Skills</a>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Code Example</div>
+                        <a href="#second_main" class="header_link">Education</a>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Education</div>
+                        <a href="#second_main" class="header_link">Language</a>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Language</div>
+                        <a href="#projects" class="header_link">Projects</a>
                     </li>
                     <li class="header_item">
-                        <div class="header_link">Projects</div>
+                        <a href="#projects" class="header_link">Code Example</a>
                     </li>
                 </ul>
             </header>
-            <main class="main">
+            <main class="main" id="main">
                 <div class="main_wrapper">
                     <div class="main_description">
                         <h1 class="main_title">Olena Nepokryta</h1>
@@ -46,26 +46,99 @@
                         <ul class="contact">
                             <li class="contact_info">
                                 <div class="contact_title">Phone:</div>
-                                <div class="contact_description"><a href="tel:+35796303434"></a>+35796303434</div>
-                                    
+                                <a href="tel:+35796303434" class="contact_description">+35796303434</a>
                             </li>
                             <li class="contact_info">
                                 <div class="contact_title">Email:</div>
-                                <div class="contact_description"><a href="mailto:olenanepokryta1997@gmail.com"></a>olenanepokryta1997@gmail.com</div>
+                                <a href="mailto:olenanepokryta1997@gmail.com" class="contact_description"> olenanepokryta1997@gmail.com</a>
                             </li>
                             <li class="contact_info">
                                 <div class="contact_title">Telegram:</div>
-                                <div class="contact_description"><a href="https://t.me/Alena_Vavrichina"></a>@Alena_Vavrichina</div>
+                                <a href="https://t.me/Alena_Vavrichina" class="contact_description">@Alena_Vavrichina</a>
                             </li>
                             <li class="contact_info">
                                 <div class="contact_title">GitHub:</div>
-                                <div class="contact_description"><a href="https://github.com/Nepokryta"></a>Olena Nepokryta</div>
+                                <a href="https://github.com/Nepokryta" class="contact_description">Olena Nepokryta</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <img src="img/me.jpg" alt="my_photo">
             </main>
+            <section class="second_main" id="second_main">
+                <div class="container">
+                    <div class="second_page">
+                        <div class="skills">
+                            <h2>Skills</h2>
+                            <ul class="skills_info">
+                                <li>HTML</li>
+                                <li>CSS/SASS</li>
+                                <li>JavaScript (Basic)</li>
+                                <li>Git/GitHub</li>
+                                <li>Figma</li>
+                                <li>Bootstrap</li>
+                                <li>Adobe Illustrator/Photoshop</li>
+                            </ul>
+                        </div>
+                        <div class="education">
+                            <h2>Education</h2>
+                            <ul class="education_info">
+                                <li>University: Central Ukrainian National Technical University</li>
+                                <li>Department: International economic relations</li>
+                                <li>Udemy</li>
+                            </ul>
+                        </div>
+                        <div class="language">
+                            <h2>Language</h2>
+                            <ul class="education_info">
+                                <li>Ukrainian - fluency</li>
+                                <li>Russian - fluency</li>
+                                <li>English - A2</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="project" id="projects">
+                <div class="container">
+                    <div class="project_block">
+                        <div class="project_info" >
+                            <h2>Project</h2>
+                            <div class="project_description"><a href="https://rolling-scopes-school.github.io/nepokryta-JSFE2022Q1/shelter/index.html">Cozy House - Shelter for pets in Boston</a></div>
+                            <div class="project_description"><a href="https://nepokryta.github.io/CSS-Mem-Slider/cssMemSlider/index.html">CSS Mem Slider</a></div>
+                            <div class="project_description"><a href="https://nepokryta.github.io/VirtualKeyboard/">Virtual Keyboard</a></div>
+                        </div>
+                        <div class="code">
+                            <h2>Code Example</h2>
+                            <pre><br>```</br> </pre>
+                            <pre><br>function removeExclamationMarks(s) {</br></pre>
+                                <pre><br>    let char = '!'</br></pre>
+                                <pre><br>    let newStr = '';</br></pre>
+                                <pre><br>    for(let i = 0; i < s.length; i++){</br></pre>
+                                    <pre><br>        if(s[i] != char){</br></pre>
+                                    <pre><br>        newStr +=s[i];</br></pre>
+                                    <pre><br>        }</br></pre>
+                                    <pre><br>    }</br></pre>
+                                    <pre><br>    return newStr;</br></pre>
+                                    <pre><br>    }</br></pre>
+                                <pre><br>    console.log(removeExclamationMarks('hello!!'));</br></pre>
+                            <pre><br>```</br> </pre>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="container">
+                   <div class="footer_info">
+                        <h2>2022</h2>
+                        <li class="footer_info">
+                            <div class="footer_title">GitHub:</div>
+                            <a href="https://github.com/Nepokryta" class="footer_description">Olena Nepokryta</a>
+                        </li>
+                        <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" class="footer_img" alt="logo_school"></a>
+                   </div>
+                </div>
+            </footer>
         </div>
     </div>
 
